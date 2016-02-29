@@ -3,6 +3,10 @@ body {
   border: 1px solid #ccc;
 }
 
+div {
+  border: 1px solid #ccc;
+}
+
 .logo-container {
   width: 100%;
 }
@@ -50,7 +54,7 @@ Buttons
   width: 142px;
 }
 
-.button-container .btn {
-  display: block;
+.button {
+  width: 500px;
   margin: 0 auto;
 }
