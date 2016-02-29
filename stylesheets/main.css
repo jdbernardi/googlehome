@@ -1,10 +1,14 @@
 body {
   font-family: arial, sans-serif;
-  border: 1px solid #ccc;
+
+
 }
 
-div {
-  border: 1px solid #ccc;
+.navbar {
+    border: 1px solid #ccc;
+    height: 100px;
+    width: 100%
+
 }
 
 .logo-container {
@@ -14,8 +18,12 @@ div {
 .logo-container .logo {
   width: 300px;
   display: block;
-  margin: 0 auto 32px auto;
+  margin: 0 auto;
 
+}
+
+.search {
+  margin: 32px auto;
 }
 
 .search .main-search { 
@@ -29,10 +37,14 @@ div {
 
 }
 
+div form input {
+  background: url("assets/images/mic.png") no-repeat right center;
+}
+
 .default-hover:hover {
    border: 1px solid #a0a0a0;
-   color: #541515;
-}
+   color: #011;
+ }
 
 
 /*
@@ -44,17 +56,27 @@ Buttons
 .btn {
   text-align: center;
   height: 35px;
-  color:#999;
+  color:#444;
   background-color: #F5F5F5;
   border: none;
   border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .search-button {
   width: 142px;
+  margin-right: 5px;
+  
 }
 
-.button {
-  width: 500px;
+.button-container {
+  width: 285px;
   margin: 0 auto;
 }
+
+.btn-lucky {
+  padding: 0 10px 0 10px;
+  
+}
+
