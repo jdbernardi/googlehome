@@ -25,7 +25,7 @@ body {
 
 }
 
-.default:hover {
+.default-hover:hover {
    border: 1px solid #a0a0a0;
    color: #541515;
 }
@@ -44,6 +44,10 @@ Buttons
   background-color: #F5F5F5;
   border: none;
   border-radius: 2px;
+}
+
+.search-button {
+  width: 142px;
 }
 
 .button-container .btn {
