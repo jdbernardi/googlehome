@@ -18,5 +18,23 @@ body {
   margin:0 auto;
   width: 655px;
   height: 45px;
+  border: 1px solid #ccc;
 
+}
+
+.default:hover {
+   border: 1px solid #a0a0a0;
+}
+
+.btn {
+  text-align: center;
+  height: 35px;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 2px;
+}
+
+.button-container .btn {
+  display: block;
+  margin: 0 auto;
 }
