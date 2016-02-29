@@ -1,0 +1,22 @@
+body {
+  font-family: arial, sans-serif;
+  border: 1px solid #ccc;
+}
+
+.logo-container {
+  width: 100%;
+}
+
+.logo-container .logo {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.search .main-search { 
+  display: block;
+  margin:0 auto;
+  width: 655px;
+  height: 45px;
+
+}
