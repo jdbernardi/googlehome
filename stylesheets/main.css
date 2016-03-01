@@ -35,12 +35,12 @@ div {
   margin-right:10px;
 }
 
-.links-container a {
+a {
   text-decoration: none;
   color: #272727;
 }
 
-.links-container a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -80,11 +80,33 @@ div {
 
 }
 
+/*
+====================================
+Footer
+====================================
+*/
+
 .footer {
+  position:absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
   background-color: #F2F2F2;
   height: 40px;
-  width: 100%;
+  color: #949494;
+  font-weight: 2em;
+  font-size: 13px;
 }
+
+.footer div {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.right-footer {
+  float: right;
+}
+
 
 /*
 ====================================
