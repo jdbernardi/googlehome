@@ -11,11 +11,8 @@ body {
 
 }
 
-.nav-element {
-  -webkit-box-sizing:border-box;
-     -moz-box-sizing:border-box;
-          box-sizing:border-box;
-
+div {
+  border: 1px solid #ccc;
 }
 
 
@@ -25,17 +22,28 @@ body {
 }
 
 .links-container {
-  min-width: 220px;
   float: right;
+  margin-top: 13px;
+  margin-right: 12px;
+  width: 250px;
 }
 
 .links-container div {
   display: inline-block;
-  margin-top: 10px;
+  font-size: 13px;
+  vertical-align: middle;
+  margin-right:10px;
+}
+
+
+
+#menulink {
+  vertical-align: middle;
 }
 
 .logo-container {
   width: 100%;
+  margin-top: 70px;
 }
 
 .logo-container .logo {
@@ -58,6 +66,12 @@ body {
   font-size: 24px;
   padding: 0 10px 0 10px;
 
+}
+
+.footer {
+  background-color: #F2F2F2;
+  height: 40px;
+  width: 100%;
 }
 
 /*
@@ -97,3 +111,16 @@ Buttons
    border: 1px solid #a0a0a0;
    color: #222222;
  }
+
+ #sign-in {
+  background-color: #4386F8;
+  text-align: center;
+  color: white;
+  width:70px;
+  height:22px;
+  vertical-align: middle;
+  padding-top:8px;
+  font-weight: bold;
+
+
+}
