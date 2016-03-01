@@ -5,15 +5,11 @@ body {
 }
 
 .navbar {
-    border: 1px solid #ccc;
     height: 50px;
     width: 100%
 
 }
 
-div {
-  border: 1px solid #ccc;
-}
 
 
 
@@ -105,8 +101,21 @@ Footer
 
 .right-footer {
   float: right;
+  margin-right: 20px;
 }
 
+.right-footer div {
+  margin-right: 20px;
+}
+
+.left-footer {
+  margin-left: 20px;
+
+}
+
+.left-footer div {
+  margin-left: 20px;
+}
 
 /*
 ====================================
