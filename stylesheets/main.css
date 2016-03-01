@@ -35,10 +35,22 @@ div {
   margin-right:10px;
 }
 
+.links-container a {
+  text-decoration: none;
+  color: #272727;
+}
+
+.links-container a:hover {
+  text-decoration: underline;
+}
 
 
 #menulink {
   vertical-align: middle;
+}
+
+.links-container img:hover {
+  opacity: 0.7;
 }
 
 .logo-container {
