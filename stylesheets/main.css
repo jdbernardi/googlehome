@@ -6,9 +6,32 @@ body {
 
 .navbar {
     border: 1px solid #ccc;
-    height: 100px;
+    height: 50px;
     width: 100%
 
+}
+
+.nav-element {
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+
+}
+
+
+
+#menulink {
+  width:20px;
+}
+
+.links-container {
+  min-width: 220px;
+  float: right;
+}
+
+.links-container div {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .logo-container {
@@ -37,16 +60,6 @@ body {
 
 }
 
-div form input {
-  background: url("assets/images/mic.png") no-repeat right center;
-}
-
-.default-hover:hover {
-   border: 1px solid #a0a0a0;
-   color: #011;
- }
-
-
 /*
 ====================================
 Buttons
@@ -56,7 +69,7 @@ Buttons
 .btn {
   text-align: center;
   height: 35px;
-  color:#444;
+  color:#B9B9B9;
   background-color: #F5F5F5;
   border: none;
   border-radius: 2px;
@@ -80,3 +93,7 @@ Buttons
   
 }
 
+.btn:hover {
+   border: 1px solid #a0a0a0;
+   color: #222222;
+ }
